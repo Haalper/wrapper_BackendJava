@@ -1,10 +1,8 @@
-
 public class Main {
     public static void main(String[] args) {
         int numInt = 10;
-        long numLong = numInt;
+        Integer numWrapper = numInt;
 
-
-        System.out.println(numLong);
+        System.out.println(numWrapper);
     }
 }
